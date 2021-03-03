@@ -28,7 +28,7 @@ except Exception:
     f = open("/rlink.txt", 'w')
     f.close()
 # Webdriver
-executable_path = '/home/opc/server/chromedriver'
+executable_path = '/chromedriver'
 
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
